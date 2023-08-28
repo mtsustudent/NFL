@@ -12,6 +12,7 @@
                 class="list-group-item @Model.CheckActiveConf("all")">
                 All
             </a>
+            
             @foreach (Conference conf in Model.Conferences)
             {
                 <a asp-action="Index"
